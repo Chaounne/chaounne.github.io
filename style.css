@@ -66,6 +66,7 @@ nav
 	list-style-type: none;
     display: flex;
     justify-content: center;
+    font-size: 125%;
 }
 
 
@@ -90,55 +91,92 @@ nav
 	text-shadow: 1px 1px 2px black;
 }
 
-.presentation
+header .titre2
 {
-	width: 80%;
-	margin: 50px 10px 100px 10px;
+	font-size: 180%;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+.conteneur
+{
+	width: 50%;
+	padding: 0 10px 0 10px;
+	margin: 10px 10px 10px 10px;
 	border: 2px black solid;
 	box-shadow: 3px 3px 6px black;
 	background-color: #DADADA;
 }
 
-.presentation p
+.conteneur p
 {
+
 	display: block;
-	padding: 10px 50px 10px 50px;
-	text-align: justify;
+	text-align: center;
 	font-size: 115%;
 }
 
-.presentation ul li
+.conteneur .titre2:hover
 {
-	text-align: left;
+	text-decoration: underline;
 }
 
-.presentation .titre2:hover
+.conteneur2
+{
+	width: 50%;
+	padding: 0 10px 0 10px;
+	margin: 100px 10px 10px 10px;
+	border: 2px black solid;
+	box-shadow: 3px 3px 6px black;
+	background-color: #DADADA;
+}
+
+.conteneur2 p
+{
+	display: block;
+	text-align: center;
+	font-size: 115%;
+}
+
+.conteneur2 .titre2:hover
 {
 	text-decoration: underline;
 }
 
 .textgroup
 {
+	margin-top: 10px;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 footer
 {
-
 	text-align: left;
 	padding-left: 5px;
 	background:#6C6C6C;
-	position:relative;
 	bottom:0;
 	width:100%;
 	padding-top:50px;
 	height:50px;
+	padding-bottom: 10px;
 }
 
-footer .num
+.barre
+{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+
+.conteneur2 ul li
 {
 	text-align: left;
-
+	font-size: 120%;
 }
+
